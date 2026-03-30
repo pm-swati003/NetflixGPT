@@ -16,6 +16,20 @@
 - Implemented Signout feature.
 - Update profile api call
 - Fetch from TMDB Movies.
+- Bugfix: Signup user display and profile picture update. 
+- Bugfix: If the user is not logged in Redirect /browse to Login page and vice-versa.
+- Unsubscribed to the onAuthStateChanged call back
+- Add hardcoded values to the constant file.
+- Register TMDB API & create an app and get access token
+- Get data from TMDB now playing movies list API
+- Custom hook for Now playing movies
+- create movie slice
+- Update store with movies data
+- Planning for Maincontainer and secondary container
+- Fetch data for trailer video
+- Update store with trailer video data
+- Embedded the YouTube video and make it autoplay and mute
+- Tailwind classes to make main container look awesome.
  
 
 # Features
@@ -32,3 +46,17 @@
 - NetflixGPT
     - Search Bar
     - Movie Suggestions
+
+
+# How to get movies API
+- Go to tmdb(search in chrome for TMDB) and go to tmdbmovie.db.org
+    - Login to that->go to edit profile->Go to API-> create api->register your app for personal -> give app name , url of host , you first name, contact no, address and give description of your app and click on subscribe->it will create api and access token for u.
+
+# How Browse Page Looks.. What all features should be there..
+- MainContainer
+    - VideoBackground
+    - VideoTitle
+- SecondaryContainer
+    - MoviesLIst * n
+    - cards * n
+    

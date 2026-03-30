@@ -24,3 +24,5 @@ yarn-error.log*
 
 # Firebase config (sensitive)
 src/utils/firebase.js
+
+src/utils/constants.js
